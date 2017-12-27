@@ -1,4 +1,4 @@
-# animo
+# amino
 
 > A Vue.js project
 
