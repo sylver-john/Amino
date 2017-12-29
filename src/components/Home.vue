@@ -1,6 +1,5 @@
 <template>
   <div>
-    coucou
     <router-view/>
   </div>
 </template>
