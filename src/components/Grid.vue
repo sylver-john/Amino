@@ -2,9 +2,9 @@
   <div>
     <nav>
       <ul class="columns is-mobile">
-        <li class="column is-4 is-offset-1"><a href="#">L-Alanine</a></li>
-        <li class="column"><a href="#">L-Arginine</a></li>
-        <li class="column"><a href="#">L-Asparagine</a></li>
+        <li class="column is-2 is-offset-2"><a href="#">L-Alanine</a></li>
+        <li class="column is-2"><a href="#">L-Arginine</a></li>
+        <li class="column is-2"><a href="#">L-Asparagine</a></li>
         <li class="column"><a href="#">L-Aspartate</a></li>
       </ul>
       <ul class="columns is-mobile">
@@ -45,7 +45,10 @@ export default {
 }
 </script>
 <style>
-* {margin: 0; padding: 0;}
+* {
+  margin: 0; padding: 0;
+  font: 16px/1 Helvetica, Verdana, sans-serif;
+}
 
 nav {
   width: 80;
@@ -71,7 +74,6 @@ li:last-child {
 li a {
   text-decoration: none;
   color: #ccc;
-  font: 14px/1 Helvetica, Verdana, sans-serif;
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease;
 }
