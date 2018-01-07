@@ -14,7 +14,7 @@
         <li class="column"><a href="#" @click="addProfileClass(8)">Glycine</a></li>
         <li class="column"><a href="#" @click="addProfileClass(9)">L-Histidine</a></li>
         <li class="column"><a href="#" @click="addProfileClass(10)">L-Isoleucine</a></li>
-      </ul>     
+      </ul>
       <ul class="columns is-mobile">
         <li class="column"><a href="#" @click="addProfileClass(11)">L-Leucine</a></li>
         <li class="column"><a href="#" @click="addProfileClass(12)">L-Lysine</a></li>

@@ -1,24 +1,37 @@
 <template>
-  <div id="app">
+  <div id="app" class="app container-fluid">
   	<div class="navbar">
 		<div class="navbar-menu" role="navigation" aria-label="main navigation">
 			<div class="navbar-start">
 			 	<div class="navbar-brand">
-				    <a class="navbar-item" href="#">
+				    <a class="navbar-item title" href="/">
 				    	Amino
 				    </a>
 		    	</div>
 		    </div>
 	    	<div class="navbar-end">
-				<a class="navbar-item" href="#">
-				  Home
+        <a class="navbar-item" href="/amino-acid">
+          Acides aminés
+        </a>
+				<a class="navbar-item" href="/studies">
+				  Etudes
 				</a>
-				<a class="navbar-item" href="#">
-				  Studies
+				<a class="navbar-item" href="/contribute">
+				  Contribuer
 				</a>
-				<a class="navbar-item" href="#">
-				  Contribute
-				</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Lang
+          </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="/us">
+              Us
+            </a>
+            <a class="navbar-item" href="/fr">
+              Fr
+            </a>
+          </div>
+        </div>
 			</div>
 		  </div>
 		</div>
@@ -41,4 +54,3 @@ export default {
    	z-index: 1;
    }
 </style>
-  
